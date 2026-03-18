@@ -1,0 +1,39 @@
+{
+  "name": "Trapy - Ride Together, Save Together",
+  "short_name": "Trapy",
+  "description": "India's trusted carpooling platform. Share rides, split costs, and travel comfortably.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4F46E5",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/trapy-logo.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["travel", "transportation"],
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Search Rides",
+      "short_name": "Search",
+      "url": "/search",
+  "icons": [{"src": "/trapy-logo.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"}]
+    },
+    {
+      "name": "Publish Ride",
+      "short_name": "Publish",
+      "url": "/publish",
+  "icons": [{"src": "/trapy-logo.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"}]
+    }
+  ]
+}
