@@ -3,9 +3,12 @@ import { useState, useEffect } from 'react';
 import { WifiOff } from 'lucide-react';
 
 export function OfflineDetector() {
-  const [isOnline, setIsOnline] = useState(navigator.onLine);
+  const [isOnline, setIsOnline] = useState(true);
 
   useEffect(() => {
+    // Sync the real online status on the client after hydration
+    setIsOnline(navigator.onLine);
+
     const handleOnline = () => setIsOnline(true);
     const handleOffline = () => setIsOnline(false);
 
